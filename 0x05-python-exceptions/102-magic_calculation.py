@@ -1,10 +1,25 @@
 #!/usr/bin/python3
+
 def magic_calculation(a, b):
-    from magic_calculation_102 import add, sub
-    if a < b:
-        c = add(a, b)
-        for n in range(4, 6):
-            c = add(c, n)
-            return c
-        else:
-            return sub(a, b)
+
+        """Function based on Python bytecode"""
+
+            result = 0
+
+                for i in range(1, 3):
+
+                            try:
+
+                                            if i > a:
+
+                                                                raise Exception("Too Far")
+
+                                                                        result += (a ** b) / i
+
+                                                                                except Exception:
+
+                                                                                                result = b + a
+
+                                                                                                            break
+
+                                                                                                            return result
